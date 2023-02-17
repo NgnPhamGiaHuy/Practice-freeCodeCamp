@@ -46,69 +46,68 @@ code {
     font-size: 0.96em;
 }
 
-@media only screen and (max-width: 815px) {
-    #navbar ul {
-        border: 1px solid;
-        height: 207px;
-    }
-    
-    #navbar{
-        top: 0;
-        left: 0;
-        width: 300px;
-        height: 100%;
-        position: fixed;
-        border-right: solid;
-        border-color: rgba(0, 22, 22, 0.4);
-    }
-    
-    #navbar > header{
-        margin: 10px;
-        color: black;
-        font-size: 1.8rem;
-        text-align: center;
-    }
-    
-    #navbar > ul{
-        padding: 0;
-        height: 88%;
-        margin: 16px 0;
-        list-style: none;
-        overflow-y: auto;
-        overflow-x: hidden;
-    }
-    
-    #navbar > ul > li.navList{
-        cursor: pointer;
-        padding: 10px 30px;
-        border-top: 1px solid;
-    }
-    
-    #main-doc{
-        top: 8px;
-        left: 8px;
-        padding: 20px;
-        display: block;
-        position: absolute;
-        margin: 0 0 110px 310px;
-    }
-    
-    #main-doc section.main-section header{
-        color: black;
-        font-size: 1.8em;
-        text-align: left;
-    }
-    
-    section article{
-        margin: 15px;
-        font-size: 0.96em;
-    }
-    
-    section article ul li{
-        margin: 15px 0px 0px 20px;
-    }
-    
-    section article ul li ul{
-        list-style: circle;
-    }
+#navbar ul {
+    height: 88%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#navbar{
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+
+#navbar > header{
+    margin: 10px;
+    color: black;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+#navbar > ul{
+    padding: 0;
+    height: 88%;
+    margin: 16px 0;
+    list-style: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#navbar > ul > li.navList{
+    cursor: pointer;
+    padding: 10px 30px;
+    border-top: 1px solid;
+}
+
+#main-doc{
+    top: 8px;
+    left: 8px;
+    padding: 20px;
+    display: block;
+    position: absolute;
+    margin: 0 0 110px 310px;
+}
+
+#main-doc section.main-section header{
+    color: black;
+    font-size: 1.8em;
+    text-align: left;
+}
+
+section article{
+    margin: 15px;
+    font-size: 0.96em;
+}
+
+section article ul li{
+    margin: 15px 0px 0px 20px;
+}
+
+section article ul li ul{
+    list-style: circle;
 }
